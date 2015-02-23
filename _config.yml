@@ -15,3 +15,6 @@ github_username:  donleyp
 # Build settings
 markdown: kramdown
 exclude: [ 's3_website*' ]
+gems: [jekyll-mermaid]
+mermaid:
+  src: '/scripts/mermaid.full.js'
