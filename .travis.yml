@@ -17,5 +17,5 @@ deploy:
   skip_cleanup: true
   local_dir: _site
   on:
-  	branch: master
-  	upload_dir: staging
+    branch: master
+    upload_dir: staging
