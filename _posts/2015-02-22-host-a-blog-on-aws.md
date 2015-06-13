@@ -5,7 +5,7 @@ date:   2015-02-22 22:00:00
 categories: AWS
 tags: jekyll
 excerpt: >
-  Hosting a blog on tublr or blogger seemed boring while hosting a blog using my own WordPress site seemed like overkill. I was looking for a way to host a blog using just Amazon S3 static website hosting and simple text-based tools. I found Jekyll and this is my blog post about it.
+  Hosting a blog on tumblr or blogger seemed boring while hosting a blog using my own WordPress site seemed like overkill. I was looking for a way to host a blog using just Amazon S3 static website hosting and simple text-based tools. I found Jekyll and this is my blog post about it.
 ---
 # Why not WordPress?
 
@@ -43,13 +43,13 @@ Now my basic workflow is this:
 2. Run `jekyll serve`.
 3. Open a browser to <http://localhost:4000>
 4. Make my edits.
-5. Refresh the browser to see my changes. Rince, Repeat.
-6. When I want to publish execute the command `s3_website push`.
+5. Refresh the browser to see my changes. Rinse, Repeat.
+6. When I want to publish I execute the command `s3_website push`.
 7. Periodically push to GitHub to backup my changes.
 
 # Next Steps
 
-In a future article I plan to detail the steps taken to setup this website and cover some of the nuances of the nuances of setting this up correctly including how to setup [Amazon Route 53](http://aws.amazon.com/route53) to point your custom domain at your newly minted website.
+In a future article I plan to detail the steps taken to setup this website and cover some of the nuances of setting this up correctly including how to setup [Amazon Route 53](http://aws.amazon.com/route53) to point your custom domain at your newly minted website.
 
 [no-server-required]:http://www.allthingsdistributed.com/2011/08/Jekyll-amazon-s3.html
 [host-blog-on-s3]:https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=hosting%20a%20blog%20on%20s3
