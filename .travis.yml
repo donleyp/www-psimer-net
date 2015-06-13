@@ -18,4 +18,4 @@ deploy:
   local_dir: _site
   on:
     branch: master
-    upload_dir: staging
+    upload-dir: staging
