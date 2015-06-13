@@ -7,8 +7,6 @@ description: >
   spread good ideas. The opinions and viewpoints expressed here are 
   my own and do not represent those of my employer or any other 
   organization to which I am affiliated.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
 twitter_username: donleyp
 github_username:  donleyp
 
