@@ -1,7 +1,7 @@
 language: ruby
 rvm:
 - 2.1
-script: "./_scripts/travis_build.sh"
+script: "./scripts/travis_build.sh"
 branches:
   only:
   - master
