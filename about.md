@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Test. This blog is dedicated to the thoughts and doings of Donley P'Simer of Seattle, WA.
+This blog is dedicated to the thoughts and doings of Donley P'Simer of Seattle, WA.
 
 I use Jekyll to build this website. You can find out more info about Jekyll at [jekyllrb.com](http://jekyllrb.com/)
 
