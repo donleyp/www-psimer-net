@@ -1,6 +1,11 @@
 language: ruby
 rvm:
 - 2.1
+script: "./_scripts/travis_build.sh"
+branches:
+  only:
+  - master
+  - live
 deploy:
   provider: s3
   access_key_id: AKIAIO6QVTUWZYLTPRZQ
@@ -11,4 +16,6 @@ deploy:
   endpoint: www.psimer.net.s3-website-us-west-2.amazonaws.com
   skip_cleanup: true
   local_dir: _site
-  upload_dir: $TRAVIS_BRANCH
+  on:
+  	branch: master
+  	upload_dir: staging
