@@ -3,6 +3,8 @@ layout: post
 title:  "My Experience at Amazon"
 date:   2015-05-17 21:00:00
 categories: general
+excerpt: >
+  I work for Amazon Web Services. There has been a lot of discussion lately regarding a scathing article about the culture at Amazon. Here is my experience.
 ---
 
 Disclosure: I work for Amazon Web Services but this article and its contents are copyright (c) 2015 Donley P'Simer and I alone am 100% responsible for the content. I do not represent Amazon in any way.
