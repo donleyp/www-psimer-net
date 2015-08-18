@@ -12,7 +12,7 @@ end
 
 task :test => :build do
 	options = {
-		:href_ignore => [/.*localhost.*/, /.*www.psimer.net.*/]
+		:href_ignore => [/.*localhost.*/, /.*www.psimer.net.*/, /.*www.linkedin.com.*/]
 	}
 	HTML::Proofer.new("./_site", options).run
 end
