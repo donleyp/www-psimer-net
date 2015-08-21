@@ -1,10 +1,14 @@
-language: ruby
-rvm:
-- 2.1
+language: node_js
+node_js:
+- "stable"
+before_script:
+  - npm install -g wintersmith
+script: "wintersmith build"
 branches:
   only:
   - master
   - live
+  - wintersmith
 deploy:
   - provider: s3
     access_key_id: AKIAIO6QVTUWZYLTPRZQ
@@ -14,7 +18,7 @@ deploy:
     region: us-west-2
     endpoint: staging.psimer.net.s3-website-us-west-2.amazonaws.com
     skip_cleanup: true
-    local_dir: _site
+    local_dir: build
     on:
       branch: master
   - provider: s3
@@ -25,6 +29,6 @@ deploy:
     region: us-west-2
     endpoint: www.psimer.net.s3-website-us-west-2.amazonaws.com
     skip_cleanup: true
-    local_dir: _site
+    local_dir: build
     on:
       branch: live

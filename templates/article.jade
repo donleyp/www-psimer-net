@@ -1,0 +1,24 @@
+
+extends layout
+
+block append vars
+  - bodyclass = 'post-detail'
+
+block prepend title
+  | #{ page.title + ' - '}
+
+block content
+  .post
+    block header
+      header.post-header
+        include author
+        h1.post-title= page.title
+        p.post-meta= moment.utc(page.date).format('MMMM DD, YYYY')
+
+    article.post-content
+      section.post-section!= page.html
+      section.post-share
+        div(class="social-likes")
+          div(class="facebook" title="Share link on Facebook") Facebook
+          div(class="twitter" data-via="donleyp" title="Share link on Twitter") Twitter
+          div(class="plusone" title="Share link on Google+") Google+
