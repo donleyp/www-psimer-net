@@ -1,13 +1,11 @@
 ---
-layout: post
-title:  "Hosting a Blog on Amazon S3"
-date:   2015-02-22 22:00:00
-categories: AWS
-tags: jekyll
-excerpt: >
-template: article.jade
-author: Donley
-filename: aws/2015/02/22/host-a-blog-on-aws.html
+title:		"Hosting a Blog on Amazon S3"
+date:   	2015-02-22 22:00:00
+author:		donley
+filename:	/aws/2015/02/22/host-a-blog-on-aws.html
+categories:	AWS
+tags: 		jekyll
+template: 	article.jade
 ---
 
 Hosting a blog on tumblr or blogger seemed boring while hosting a blog using my own WordPress site seemed like overkill. I was looking for a way to host a blog using just Amazon S3 static website hosting and simple text-based tools. I found Jekyll and this is my blog post about it.
@@ -17,7 +15,7 @@ Hosting a blog on tumblr or blogger seemed boring while hosting a blog using my 
 
 I've wanted to setup a blog for a long time. The main thing that's been stopping me is that I didn't think I would have the time to keep it up and figured it would be worse to start one and then let it peter off. The other reason was that I wanted something that I had complete control of (e.g. not blogger, or tumblr) but without a lot of maintenance headaches. The first reason is just an issue of committment and the second reason is just an excuse. If I wanted a blog I would have to find a simple way to put it together that met my architectural needs.
 
-I thought about bringing up a WordPress blog using [Elastic Beanstalk](http://aws.amazon.com/elasticbeanstalk) or a small EC2 instance with the LAMP stack installed. It bothered me from an architectural perspective that I needed a relational database and an application server to back a blog. A blog, after all, is just a set of articles and other content put together to create a website. The articles don't change over time or gather data from a database. They simply sit there in the database waiting to be served up. It doesn't make a lot of sense that I need a multi-tiered application architecture for this simple task. One thing that blogging servers do very well though is article management and page generation based on templates. I needed that functionality but I did not want the content to be generated at request time.
+I thought about bringing up a WordPress blog using [Elastic Beanstalk][eb] or a small EC2 instance with the LAMP stack installed. It bothered me from an architectural perspective that I needed a relational database and an application server to back a blog. A blog, after all, is just a set of articles and other content put together to create a website. The articles don't change over time or gather data from a database. They simply sit there in the database waiting to be served up. It doesn't make a lot of sense that I need a multi-tiered application architecture for this simple task. One thing that blogging servers do very well though is article management and page generation based on templates. I needed that functionality but I did not want the content to be generated at request time.
 
 I wanted a solution that would give me the DRY-ness of CMS systems, be easy to use (for an engineer), and did not require a server. I wondered whether anyone had solved the problem of building and deploying a blog to Amazon S3 so I [googled "host a blog on s3"][host-blog-on-s3] and clicked on one of the top articles, ["No Server Required - Jekyll & Amazon S3"][no-server-required], by Werner Vogels. Werner is the CTO of Amazon so I knew I had struck proverbial Internet gold here. Werner's thoughts on creating a blog jived well with my own so I took a look at the technologies he mentioned. Within two hours I had moved my domain away from pointing at a Google Site page and had a fully working blog on Amazon S3.
 
@@ -60,3 +58,4 @@ In a future article I plan to detail the steps taken to setup this website and c
 [no-server-required]:http://www.allthingsdistributed.com/2011/08/Jekyll-amazon-s3.html
 [host-blog-on-s3]:https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=hosting%20a%20blog%20on%20s3
 [jekyll]:http://jekyllrb.com
+[eb]:http://aws.amazon.com/elasticbeanstalk

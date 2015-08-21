@@ -1,9 +1,12 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "Donley's Blog",
+    "site_name": "Donley's Blog",
     "owner": "Donley R. P'Simer",
-    "description": "Father, Husband, Engineer"
+    "description": "Father, Husband, Engineer",
+    "github_username": "donleyp",
+    "twitter_username": "donleyp",
+    "copyright": "Copyright &copy; 2015 Donley R. P'Simer. All Rights Reserved."
   },
   "plugins": [
     "./plugins/paginator.coffee"
@@ -21,6 +24,6 @@
     "smartypants": true
   },
   "paginator": {
-    "perPage": 3
+    "perPage": 30 
   }
 }
