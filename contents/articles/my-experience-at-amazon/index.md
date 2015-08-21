@@ -3,11 +3,15 @@ layout: post
 title:  "My Experience at Amazon"
 date:   2015-05-17 21:00:00
 categories: general
-excerpt: >
-  I work for Amazon Web Services. There has been a lot of discussion lately regarding a scathing article about the culture at Amazon. Here is my experience.
+filename: /general/2015/05/17/my-experience-at-amazon.html
+template: article.jade
+author: Donley
 ---
 
-Disclosure: I work for Amazon Web Services but this article and its contents are copyright (c) 2015 Donley P'Simer and I alone am 100% responsible for the content. I do not represent Amazon in any way.
+I work for Amazon Web Services. There has been a lot of discussion lately regarding a scathing article about the culture at Amazon. Here is my experience.
+
+---
+Disclosure: I work for Amazon Web Services but this article and its contents are copyright &copy; 2015 Donley P'Simer and I alone am 100% responsible for the content. I do not represent Amazon in any way.
 
 So the New York Times published an [article] about Amazon and how it treats its employees on Saturday. There's been a lot of discussion on LinkedIn, Facebook, and Twitter about the article. There was also a [rebuttal] that I think brings balance to the discussion. I ask you to please read both of the articles if you are interested but here is the TL;DR version:
 
@@ -15,7 +19,7 @@ The article paints Amazon as an unrelenting, mechanistic, top-heavy organization
 
 I think that Nick did a fine job taking on the article point by point so I will not do that here. The reason I am posting this article is to relate my own story so that people can have just a little more data about Amazon before making any decisions on where to work or where to buy.
 
-I have a genetic heart defect called [HCM] (Hyperthropic Cardiomyopathy). I was diagnosed in late 2006 when my doctor heard a murmur in my heartbeat. The disease progressed until, finally, in late 2014 my cardiology team recommended I undergo open-heart surgery to correct the obstruction. The obstruction caused severe fatigue and syncope, an event that ends in me fainting for no apparent reason. HCM is the leading cause of sudden death in student athletes. I had had an [ICD] implanted in 2012 to forestall that type of event but it became apparent in early 2015 that I could not stall any longer. I needed the surgery and I needed it soon. 
+I have a genetic heart defect called [HCM]\(Hyperthropic Cardiomyopathy\). I was diagnosed in late 2006 when my doctor heard a murmur in my heartbeat. The disease progressed until, finally, in late 2014 my cardiology team recommended I undergo open-heart surgery to correct the obstruction. The obstruction caused severe fatigue and syncope, an event that ends in me fainting for no apparent reason. HCM is the leading cause of sudden death in student athletes. I had had an [ICD] implanted in 2012 to forestall that type of event but it became apparent in early 2015 that I could not stall any longer. I needed the surgery and I needed it soon. 
 
 The trouble was I had just started working for Amazon Web Services as a development manager in April, 2014. I had not completed my first year and I did not want to step out for six weeks before even completing one year! This was not due to any pressure from the leadership. I'm just funny that way. I like to follow-through on my committments and I felt that I should give them a year before taking a leave of absense. In the end, however, my health had to come first so I talked with my leadership. 
 

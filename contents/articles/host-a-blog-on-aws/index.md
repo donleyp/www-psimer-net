@@ -5,7 +5,13 @@ date:   2015-02-22 22:00:00
 categories: AWS
 tags: jekyll
 excerpt: >
-  Hosting a blog on tumblr or blogger seemed boring while hosting a blog using my own WordPress site seemed like overkill. I was looking for a way to host a blog using just Amazon S3 static website hosting and simple text-based tools. I found Jekyll and this is my blog post about it.
+template: article.jade
+author: Donley
+filename: aws/2015/02/22/host-a-blog-on-aws.html
+---
+
+Hosting a blog on tumblr or blogger seemed boring while hosting a blog using my own WordPress site seemed like overkill. I was looking for a way to host a blog using just Amazon S3 static website hosting and simple text-based tools. I found Jekyll and this is my blog post about it.
+
 ---
 # Why not WordPress?
 
