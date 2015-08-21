@@ -15,9 +15,11 @@ The only prerequisites are node, npm, and wintersmith.
 3. install wintersmith `npm install wintersmith -g` (may need sudo based on your system config)
 
 To preview the site:
+
  $ wintersmith preview
 
 To build the site:
+
  $ wintersmith build
 
 ## Publishing
