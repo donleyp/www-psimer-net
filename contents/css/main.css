@@ -113,6 +113,10 @@ pre > code {
   padding-left: 0;
 }
 
+p.date {
+  margin-bottom: 0px;
+}
+
 /**
  * Wrapper
  */

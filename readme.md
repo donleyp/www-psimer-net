@@ -5,6 +5,6 @@ The blog.
 
 # TODO
 
-* Fix mermaid
 * write post about wintersmith
+* Add source code link to menu
 

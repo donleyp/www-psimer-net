@@ -31,15 +31,17 @@ I wanted a solution that would give me the DRY-ness of CMS systems, be easy to u
 
 Once we have a site built out and everything customized the way we want it is time to figure out our workflow so that we can quickly add and edit content to the site. Werner mentioned using DropBox for storing his site in the cloud and syncing the content to all of his computers so that he can edit it at any time. I like this idea but I wanted the power of a source control system as well so I chose [GitHub](http://github.com). s3_website works on local files, not Git repos so my workflow looks like this:
 
-{% mermaid %}
+
+<div class="mermaid">
 graph LR
-	GIT[GIT Repo]
-	clone(Local Clone)
-	s3((S3))
-	GIT-->clone
-	clone-->GIT
-	clone-->|s3_website|s3
-{% endmermaid %}
+    GIT[GIT Repo]
+    clone(Local Clone)
+    s3((S3))
+    GIT-->clone
+    clone-->GIT
+    clone-->|s3_website|s3
+</div>
+
 
 Now my basic workflow is this:
 
