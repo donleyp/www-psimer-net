@@ -18,7 +18,7 @@ deploy:
     region: us-west-2
     endpoint: staging.psimer.net.s3-website-us-west-2.amazonaws.com
     skip_cleanup: true
-    local_dir: _site
+    local_dir: build
     on:
       branch: master
   - provider: s3
@@ -29,6 +29,6 @@ deploy:
     region: us-west-2
     endpoint: www.psimer.net.s3-website-us-west-2.amazonaws.com
     skip_cleanup: true
-    local_dir: _site
+    local_dir: build
     on:
       branch: live

@@ -1,4 +1,12 @@
 ---
-view: none
+template: page.jade
+title: "About"
 ---
-This is Donley P'Simer's blog. I plan to write articles and essays on topics of interest to me and mine with the hope that they will spread good ideas. The opinions and viewpoints expressed here are my own and do not represent those of my employer or any other organization to which I am affiliated.
+
+This blog is dedicated to the thoughts and doings of Donley P’Simer of Seattle, WA.
+
+I use Jekyll to build this website. You can find out more info about Jekyll at <jekyllrb.com>
+
+You can find the source code for the Jekyll new theme at: <www.github.com/jglovier/jekyll-new>
+
+You can find the source code for Jekyll at <github.com/jekyll/jekyll>
