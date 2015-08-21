@@ -13,15 +13,15 @@
   ],
   "require": {
     "moment": "moment",
-    "_": "underscore",
-    "typogr": "typogr"
+    "_": "underscore"
   },
   "jade": {
     "pretty": true
   },
   "markdown": {
     "smartLists": true,
-    "smartypants": true
+    "smartypants": true,
+    "pedantic": true
   },
   "paginator": {
     "perPage": 30 
