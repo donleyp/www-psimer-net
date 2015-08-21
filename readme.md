@@ -1,3 +1,4 @@
+<img title="Build Status Images" src="https://travis-ci.org/donleyp/www-psimer-net.svg">
 
 # Blog
 
