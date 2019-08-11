@@ -5,7 +5,7 @@ author:		donley
 filename:	/aws/2015/02/22/host-a-blog-on-aws.html
 categories:	AWS
 tags: 		jekyll
-template: 	article.jade
+template: 	article.pug
 ---
 
 Hosting a blog on tumblr or blogger seemed boring while hosting a blog using my own WordPress site seemed like overkill. I was looking for a way to host a blog using just Amazon S3 static website hosting and simple text-based tools. I found Jekyll and this is my blog post about it.

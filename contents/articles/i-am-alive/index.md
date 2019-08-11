@@ -4,7 +4,7 @@ title:  "I Am Alive!"
 date:   2017-07-06 12:00:00
 categories: general
 filename: /general/2017/07/06/i-am-alive.html
-template: article.jade
+template: article.pug
 author: Donley
 ---
 My heart failed last week (Thursday, June 29th, 2017 at about 5:30pm). My ICD

@@ -2,7 +2,7 @@
 title:  "Hello, World!"
 date:   2015-02-21 22:00:00
 categories: general
-template: article.jade
+template: article.pug
 filename: /general/2015/02/21/hello-world.html
 author: Donley
 intro: "My first blog post."

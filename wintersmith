@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [[ ! -x ./node_modules/wintersmith/bin/wintersmith ]]; then
+    npm install wintersmith
+fi
+
+./node_modules/wintersmith/bin/wintersmith $@

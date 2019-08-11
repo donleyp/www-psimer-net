@@ -16,7 +16,7 @@ html(lang='en')
   body(class=bodyclass)
     header#site-header.site-header
       .wrapper
-        a.site-title(href="/")= locals.site_name
+        a.site-title(href='/')= locals.site_name
         nav#site-nav.site-nav
           a.menu-icon(href="#site-header")
             svg(viewBox="0 0 18 15")
@@ -34,6 +34,6 @@ html(lang='en')
       block footer
         include footer
 
-    script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js")
+    script(src="https://code.jquery.com/jquery-1.12.4.min.js")
     script(src="/js/mermaid.js")
     script(src="/js/social-likes.min.js")

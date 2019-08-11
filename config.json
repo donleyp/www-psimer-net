@@ -1,12 +1,11 @@
 {
   "locals": {
-    "url": "http://localhost:8080",
     "site_name": "Donley's Blog",
     "owner": "Donley R. P'Simer",
     "description": "Father, Husband, Engineer",
     "github_username": "donleyp",
     "twitter_username": "donleyp",
-    "copyright": "Copyright &copy; 2015 Donley R. P'Simer. All Rights Reserved."
+    "copyright": "Copyright &copy; 2015 - 2019 Donley R. P'Simer. All Rights Reserved."
   },
   "plugins": [
     "./plugins/paginator.coffee"
@@ -15,7 +14,7 @@
     "moment": "moment",
     "_": "underscore"
   },
-  "jade": {
+  "pug": {
     "pretty": true
   },
   "markdown": {
@@ -25,5 +24,6 @@
   },
   "paginator": {
     "perPage": 30 
-  }
+  },
+  "baseUrl": "/test"
 }
