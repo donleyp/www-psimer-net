@@ -25,5 +25,5 @@
   "paginator": {
     "perPage": 30 
   },
-  "baseUrl": "/test"
+  "baseUrl": "/"
 }
