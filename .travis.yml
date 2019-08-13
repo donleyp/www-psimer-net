@@ -15,7 +15,6 @@ deploy:
       secure: VStv7LL4tZjwRDMaakLcmzI96+Xf3dZaWLFVQd00fqCqAWxgvQtfiXUqJqBMqWF6Z3fZT/uuldcA1CZUrzlsLl7dXM+YT+xT7hzL4MJOXm/i7CcAz4StKlqQy8hZwXcf6m39qcbxvtuHaFPgWgaC1R5V/dJ2ahhgbwglmj8GqZI=
     bucket: staging.psimer.net
     region: us-west-2
-    endpoint: staging.psimer.net.s3-website-us-west-2.amazonaws.com
     skip_cleanup: true
     local_dir: build
     on:
@@ -26,7 +25,6 @@ deploy:
       secure: VStv7LL4tZjwRDMaakLcmzI96+Xf3dZaWLFVQd00fqCqAWxgvQtfiXUqJqBMqWF6Z3fZT/uuldcA1CZUrzlsLl7dXM+YT+xT7hzL4MJOXm/i7CcAz4StKlqQy8hZwXcf6m39qcbxvtuHaFPgWgaC1R5V/dJ2ahhgbwglmj8GqZI=
     bucket: www.psimer.net
     region: us-west-2
-    endpoint: www.psimer.net.s3-website-us-west-2.amazonaws.com
     skip_cleanup: true
     local_dir: build
     on:
