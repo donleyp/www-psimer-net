@@ -1,4 +1,6 @@
-<img title="Build Status Images" src="https://travis-ci.org/donleyp/www-psimer-net.svg">
+[![Build Status: live](https://travis-ci.org/donleyp/www-psimer-net.svg?branch=live)](https://travis-ci.org/donleyp/www-psimer-net)
+
+[![Build Status: staging](https://travis-ci.org/donleyp/www-psimer-net.svg?branch=master)](https://travis-ci.org/donleyp/www-psimer-net)
 
 *Please do not fork this repository. See acceptable use under license.*
 
