@@ -4,7 +4,7 @@ title:  "My Experience at Amazon"
 date:   2015-05-17 21:00:00
 categories: general
 filename: /general/2015/05/17/my-experience-at-amazon.html
-template: article.jade
+template: article.pug
 author: Donley
 ---
 
