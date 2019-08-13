@@ -3,5 +3,5 @@
     "moment": ">=2.19.3",
     "underscore": "1.9.x"
   },
-  "private": "true"
+  "private": true
 }

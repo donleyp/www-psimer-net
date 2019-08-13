@@ -1,6 +1,5 @@
-[![Build Status: live](https://travis-ci.org/donleyp/www-psimer-net.svg?branch=live)](https://travis-ci.org/donleyp/www-psimer-net)
-
-[![Build Status: staging](https://travis-ci.org/donleyp/www-psimer-net.svg?branch=master)](https://travis-ci.org/donleyp/www-psimer-net)
+Build Status:
+**Live**: [![Build Status](https://travis-ci.org/donleyp/www-psimer-net.svg?branch=live)](https://travis-ci.org/donleyp/www-psimer-net) **Staging**: [![Build Status](https://travis-ci.org/donleyp/www-psimer-net.svg?branch=master)](https://travis-ci.org/donleyp/www-psimer-net)
 
 *Please do not fork this repository. See acceptable use under license.*
 
