@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "moment": ">=2.19.3",
-    "underscore": "1.9.x"
+    "underscore": "1.12.x"
   },
   "private": true
 }
