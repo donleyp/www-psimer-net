@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "moment": ">=2.19.3",
+    "moment": ">=2.29.4",
     "underscore": "1.9.x"
   },
   "private": true
